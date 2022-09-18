@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width",initial-scale=1.0>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Calculator</title>
         <link href="styles.css" rel="stylesheet">
@@ -10,32 +10,33 @@
      </head>
      <body>
         <div class="calc-grid">
-            <div class="out_screen">
-                <div class="prev_operand"></div>
-                <div class="curr_operand"></div>
+            <div id="outScreen" class="out_screen">
+                <div id="prevOperand" class="prev_operand"></div>
+                <div id="currOperand" class="curr_operand"></div>
             </div>
-            <button class="large">CE</button>
-            <button class="large">C</button>
-            <button>%</button>
-            <button>1/x</button>
-            <button>x²</button>
-            <button>x^y</button>
-            <button>/</button>
-            <button class="med">1</button>
-            <button class="med">2</button>
-            <button class="med">3</button>
-            <button class="med">*</button> 
-            <button class="med">4</button>
-            <button class="med">5</button>
-            <button class="med">6</button>
-            <button class="med">-</button>  
-            <button class="med">7</button>
-            <button class="med">8</button>
-            <button class="med">9</button>
-            <button class="med">+</button>
-            <button class="med">+/-</button>
-            <button>0</button>
-            <button>.</button>
-            <button class="med">=</button>
+            <button id="clearAll" class="span-two">CE</button>
+            <button id="delete">C</button>
+            <button id="modulus">%</button>
+            <button id="inverse">1/x</button>
+            <button id="squared">x²</button>
+            <button id="power">x^y</button>
+            <button id="division">/</button>
+            <button id="one">1</button>
+            <button id="two">2</button>
+            <button id="three">3</button>
+            <button id="multiply">*</button> 
+            <button id="four">4</button>
+            <button id="five">5</button>
+            <button id="six">6</button>
+            <button id="minus">-</button>  
+            <button id="seven">7</button>
+            <button id="eight">8</button>
+            <button id="nine">9</button>
+            <button id="sum" operation>+</button>
+            <button id="posorneg">+/-</button>
+            <button id="zero">0</button>
+            <button id="point">.</button>
+            <button id="equals">=</button>
+        </div> 
      </body>
 </html> 
